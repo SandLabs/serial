@@ -10,9 +10,11 @@ project(serial VERSION 1.2.1)
 ## Options 
 
 # Use Catkin
-option(USE_CATKIN on)
+option(USE_CATKIN off)
 # Build serial sample 
-option(BUILD_SAMPLE on)
+option(BUILD_SAMPLE off)
+# Build serial tests
+option(CATKIN_ENABLE_TESTING off)
 
 
 # Find catkin
